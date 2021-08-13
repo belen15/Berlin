@@ -1,0 +1,29 @@
+{
+  "preguntas": [
+    {
+      "id": "1",
+      "pregunta": "How do I get a credit card?",
+      "respuestas": "Get a account. Sign up and add your first currency to your balances. You’ll be able to add more currencies afterwards. Please note reviewing your application can take us a few days due to verification. Order your card. To order your card, click on the Debit card tab of the website or the Account tab in the app, and you’ll see an option to order the card. Activate your card. Once you receive your card, you need to activate it."
+    },
+    {
+      "id": "2",
+      "pregunta": "Where can I use my credit card?",
+      "respuestas": "Generally, you can pay with your credit card in most places where debit cards are accepted. But, if you’re planning on taking your card abroad, check the lists below for countries where you won’t be able to use it. You can also withdraw cash from most ATMs — except the countries specified above for US and non-US cards respectively. If you don’t know of any ATM near you, just use the Mastercard ATM locator or Visa ATM locator to find one. "
+    },
+    {
+      "id": "3",
+      "pregunta": "How can I check the status of my transfer?",
+      "respuestas": "For every transfer you set up, we try to give you as much information as possible in our money tracker. It’s so you can see where your money is at every step. Today, we deliver over 80% of transfers within 2 hours of the estimated time you see on the money tracker. But sometimes, it can take a little longer. Here are some of the most common reasons why your transfer might be delayed, and what you can do about them."
+    },
+    {
+      "id": "4",
+      "pregunta": "Are there limits on how much money I can receive?",
+      "respuestas": "For most people, there are no limits on how much you can receive and hold right now There are 2 exceptions: People and businesses receiving USD that have a routing number starting with 026. People holding money with an account address in Singapore. Sometimes we need to ask for some extra information and documents from you, depending on the amount you receive. If this is the case, we’ll get in touch by email and let you know exactly what you’ll need to do."
+    },
+    {
+      "id": "5",
+      "pregunta": "Can I transfer my business account to someone else?",
+      "respuestas": "You can leave your Wise business account, and transfer it to another Admin user any time. Once you transfer ownership of an account, your access is fully cancelled. This means, you can’t log in anymore, and your business Wise cards will be blocked. You can be invited as a user by the new Owner or another Admin anytime."
+    }
+  ]
+}

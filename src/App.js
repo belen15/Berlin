@@ -1,23 +1,31 @@
-import logo from './logo.svg';
+import React,{ useState, useEffect } from 'react';
 import './App.css';
 
+import Preguntas from './components/preguntas.js';
+
+
+const url = 'http://localhost:3000/preguntas';
+
 function App() {
+  const [preguntas, setPreguntas] = useState([]);
+
+  const fetchPreguntas = async () => {
+    try {
+      const response = await fetch(url);
+
+      const preguntas = await response.json();
+      setPreguntas(preguntas);
+    } catch (e) {
+      console.log(e);
+    }
+  };
+  useEffect(() => {
+    fetchPreguntas();
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Preguntas preguntas={preguntas} />
     </div>
   );
 }
