@@ -1,4 +1,19 @@
-# Getting Started with Create React App
+# Librerias
+
+## React-Framer-Motion
+
+    npm i framer-motion
+ 
+## React-icon
+
+    npm install react-icons --save
+
+# API
+
+    npm run servicio 
+
+# Imagenes de la App
+
 
 <img width="960" alt="berlin-1" src="https://user-images.githubusercontent.com/61084715/129871404-784a7e3d-b773-41cd-8cf7-8e869dd1aab1.png">
 
